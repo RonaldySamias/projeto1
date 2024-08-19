@@ -1,0 +1,911 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+ background: linear-gradient(180.96deg, #39289F 0.82%, #422F9C 129.1%);
+ max-width: 1440px;
+ height: 5382px;
+ gap: 0;
+ 
+
+ 
+}
+
+.center{
+    max-width: 1440px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 0 2%;
+    
+}
+
+header{
+    padding: 0px;
+}
+
+.logo{
+    height: 45px;
+    margin-top: 37px;
+    margin-left: 55px;
+    
+    font-family: Poppins;
+    font-size: 29px;
+    font-weight: 500px;
+    line-height: 44.51px;
+    text-align: left;
+    color: white;
+
+   
+
+}
+
+.logoTeste{
+    display: flex;
+    position: absolute;
+    width: 82px;
+    height: 45px;
+    
+}
+
+.menu{
+    display: flex;
+    position: relative;
+    text-align: right;
+    margin-left: 566px;
+    width: 673.77px;
+    height: 41.34px;
+    margin-top: 44px;
+    gap: 0px;
+    opacity: 0px;
+
+    
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    margin-right: 88px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    white-space: nowrap;
+    
+
+
+}
+
+.menu button{
+    width: 130px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: orange;
+    color: white;
+    font-family: poppins;
+    
+}
+
+/*fim header */
+#line1{
+    margin-left: 589px;
+    margin-top: 0px;
+}
+
+#controle {
+    margin-left: 772px;
+    margin-top: -65px;
+    width: 806px;
+    height: 761px;
+}
+
+
+#cry {
+    display: flex;
+    width: 101px;
+    height: 99px;
+    margin-left: 828px;
+    margin-top: -500px;
+    gap: 0px;
+    opacity: 0px;
+}
+.engines {
+    display: flex;
+}
+
+#unity{
+    display: flex;
+    width: 96px;
+    height: 30px;
+    margin-top: 150px;
+    margin-left: 600px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+#unreal{
+    display: flex;
+    width: 59px;
+    height: 64px;
+    margin-left: 1250px;
+    margin-top: -260px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+/*inicio section*/
+section .sobre{
+    display: flex;
+    width: 527px;
+    height: 512px;
+    margin-top: 203px;
+    margin-left: 147px;
+    gap: 0px;
+    border-radius: 40px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+
+}
+
+.extras{
+    
+    width: 37%;
+    margin-left: 147px;
+    margin-top: 203px;
+    margin-right: 766px;
+   
+}
+
+.extras h1{
+    font-family: Poppins;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 77.6px;
+    text-align: left;
+    color: white;
+
+}
+.contentWhite{
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;
+    color: white;
+
+}
+#contentOrange {
+    color: rgba(232, 125, 14, 1);
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 31.04px;
+    text-align: left;
+    text-shadow: 2px 2px black
+
+}
+
+.extras button{
+    width: 195px;
+    height: 53px;
+    top: 662px;
+    left: 147px;
+    gap: 0px;
+    border-radius: 40px;
+    opacity: 0px;
+    background-color: orange;
+    color: white;
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+
+
+}
+
+/*inicio imagens dos jogos*/
+
+.currentGames{
+    display: flex;
+    line-height: 58.13px;
+    width: 405px;
+    height: 58px;
+    margin-top: 178px;
+    white-space: nowrap;
+    margin-left: 147px;
+    gap: 0px;
+    opacity: 0px;
+    
+
+
+}
+
+.currentGames p{
+    font-family: poppins;
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 58.13px;
+    color: white;
+}
+
+
+
+
+
+.see{
+    display: flex;
+    margin-top: -50px;
+    margin-left: 1154px;
+    gap: 0px;
+    border-radius: 10px;
+    opacity: 0px;
+
+}
+
+.see p {
+    border-radius: 10px;
+    width: 139px;
+    height: 57px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: rgba(255, 255, 255, 0.11);
+    color: white;
+    font-family: poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 37.5px;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+/*imagens jogos justify-content*/
+
+.imagesGames {
+    display: flex;
+    justify-content: space-between;    
+    margin-left: 147px;
+    margin-top: 57px;
+    gap: 0px;
+    border-radius: 20px;
+    opacity: 0px;
+}
+
+.seguidoresGames{
+    display: flex;
+    height: 41px;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-left: 187px;
+    color: white;
+    font-family: poppins;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 41.25px;
+    white-space: wrap;
+    gap: 0px;
+    opacity: 0px;
+
+
+}
+
+.fire {
+    width: 25px;
+    height: 25px;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+    position: absolute;
+    margin-left: -25px;
+    margin-top: 5px;
+    justify-content: flex-start;
+    justify-content: space-between;
+}
+
+
+
+
+/*texto after images*/
+
+#textoCentro{
+   margin-top: 129px;
+   margin-left: 307px;
+}
+
+#textoCentro h1{
+    font-family: Poppins;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 65.63px;
+    text-align: center;
+    color: white;
+}
+
+
+#texto3 {
+    margin-left: 147px;
+    margin-top: 139px;
+    color: white;
+}
+
+#texto3 h1{
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 56.25px;
+    text-align: left;
+}
+
+#texto3 p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    text-align: left;
+}
+
+#spider {
+    width: 1146px;
+    height: 462px;
+    gap: 0px;
+    border-radius: 5px;
+    opacity: 0px;
+    margin-left: 147px;
+    margin-right: 147px;
+    margin-top: 46px;
+}
+
+.montanha {
+    margin-top: 157px;
+    width: 1440px;
+    height: 881px;
+    background-image: url(images/Rectangle\ 5.png);
+}
+
+.text5 {
+    width: 826px;
+    height: 197px;
+    margin-left: 109px;
+    gap: 0px;
+    opacity: 0px;
+    margin-top: 93px;
+}
+
+
+
+.text5 h1{
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 56.25px;
+    text-align: center;
+    color: white;
+}
+
+.text5 p{
+    margin-top: 25px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+}
+
+/*
+.montanha div{
+    margin-top: 99px;
+    margin-left: 147px;
+    justify-content: space-between;
+    width: 65px;
+    height: 65px;
+    background-color: white;
+    border-radius: 50% 50%;
+    
+
+}
+    */
+
+.mont1{
+    height: 696px;
+    gap: 0px;
+    opacity: 0px;
+    margin-left: 198px;
+
+
+}
+
+.mont2{
+    margin-top: 99px;
+    display: flex;
+    width: 1045px;
+    height: 170px;
+    justify-content: space-between;
+    position: relative;
+    
+}
+
+.mont2 p{
+    margin-top: 30px;
+    margin-left: -100px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    white-space: nowrap;
+    color: white;
+    width: 220px;
+    height: 30px;
+
+
+}
+
+.mont2 div {
+    width: 65px;
+    height: 65px;
+    background-color: white;
+    border-radius: 50% 50%;
+    margin-left: 80px;
+}
+
+.mont2 img {
+    width: 29.75px;
+    height: 29.75px;
+    margin-left: 17px;
+    margin-top: 17px;
+
+}
+
+.mont4{
+    position: absolute;
+    margin-top: 331px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 62px;
+    width: 327px;
+    height: 168px;
+    margin-left: 359px;
+}
+
+.mont4 div {
+    width: 65px;
+    height: 65px;
+    background-color: white;
+    border-radius: 50% 50%;
+    margin-left: 0px;  
+}
+
+.mont4 img{
+    width: 29.75px;
+    height: 29.75px;
+    margin-left: 17px;
+    margin-top: 17px;
+}
+
+.mont3{
+    position: absolute;
+    margin-top: -80px;
+    display: flex;
+    justify-content: space-between;
+    width: 220px;
+    height: 30px;
+    gap: 0px;
+    opacity: 0px;
+    color: white;
+    
+}
+
+.mont3 div{
+    display: flex;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    white-space: nowrap;
+    margin-right: 100px;
+
+}
+
+.mont5{
+    margin-left: 359px;
+    margin-top: 150px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 220px;
+    height: 30px;
+    gap: 0px;
+    opacity: 0px;
+    color: white;
+}
+
+.mont5 div{
+    display: flex;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    white-space: nowrap;
+    margin-right: 100px;
+}
+
+/*inicio page3*/
+.projects{
+    margin-top: 141px;
+    width: 1170px;
+    height: 678px;
+    margin-left: 135px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.text6{
+    width: 497px;
+    height: 128px;
+    margin-left: 330px;
+    gap: 0px;
+    opacity: 0px;
+    text-align: center;
+    color: white;
+
+}
+
+.text6 h1{
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 56.25px;
+    text-align: center;
+
+}
+
+.text6 p{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26.25px;
+    text-align: center;
+
+}
+
+.teste8 {
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.teste10 {
+    margin-top: 33px;
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.sizeImg {
+    display: inline-flex;
+    justify-content: space-between;
+    gap: 0px;
+    border-radius: 20px;
+    opacity: 0px;
+
+}
+
+.see2{
+    display: flex;
+    position: absolute;
+    gap: 0px;
+    margin-left: 680px;
+    border-radius: 10px;
+    opacity: 0px;
+
+}
+
+.see2 p {
+    border-radius: 10px;
+    width: 139px;
+    height: 57px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: rgba(255, 255, 255, 0.11);
+    color: white;
+    font-family: poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 37.5px;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+/*inicio page4*/
+
+.projects2{
+    width: 1170px;
+    height: 392px;
+    margin-top: 105px;
+    margin-left: 135px;
+
+}
+
+#text7{
+    color: white;
+    width: 545px;
+    height: 129px;
+
+}
+
+#text7 h1{
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 56.25px;
+    text-align: left;
+}
+
+#text7 p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+
+}
+
+.quest{
+    display: flex;
+    width: 1170px;
+    height: 189px;
+    margin-top: 74px;
+    background: rgba(28, 20, 15, 1);
+    border-radius: 15px;
+}
+
+#text8{
+    width: 636px;
+    height: 107px;
+    color: white;
+
+}
+
+#text8 h1{
+    width: 303px;
+    height: 45px;
+    margin-top: 40px;
+    margin-left: 56px;
+    white-space: nowrap;
+
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 45px;
+    text-align: left;    
+
+}
+
+#text8 p{
+    width: 636px;
+    height: 52px;
+    margin-top: 5px;
+    margin-left: 56px;
+    white-space: nowrap;
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25.5px;
+    text-align: left;
+}
+
+#emailQuest{
+    display: flex;
+    margin-top: 71px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+#emailQuest input{
+    position: relative;
+    border-radius: 8px;
+    width: 385.68px;
+    height: 48px;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 19.5px;
+
+}
+
+#emailQuest button {
+    color: white;
+    background-color: orange;
+    position: absolute;
+    width: 105px;
+    height: 37px;
+    margin-top: 6px;
+    margin-left: 270px;
+    border-radius: 8px;
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19.5px;
+    text-align: center; 
+}
+
+/*inicio footer*/
+
+.infos{
+    display: flex;
+    width: 1440px;
+    height: 376px;
+    color: white;
+    background-color: black;
+    margin-top: 163px;
+
+}
+
+#text11{
+    width: 1219px;
+    height: 161px;
+    margin-top: 79px;
+    margin-left: 101px;
+
+}
+
+#text11 h1{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36.84px;
+    text-align: left;
+    color: white;
+}
+
+#text11 p{
+    width: 372px;
+    height: 58px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: white;
+
+}
+
+#text12{
+    gap: 0px;
+    margin-top: 80px;
+    margin-left: 551px;
+    width: 372px;
+    height: 117px;
+    position: absolute;
+    color: white;
+
+}
+
+#text12 p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29.81px;
+    text-align: left;
+}
+
+#contact1{
+    display: flex;
+    position: absolute;
+    width: 94px;
+    height: 26px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 25.5px;
+    text-align: left;
+    margin-left: 771px;
+    margin-top: 79px;
+}
+
+#contact2{
+    display: flex;
+    position: absolute;
+    width: 141px;
+    height: 28px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    margin-left: 771px;
+    margin-top: 212px;
+
+}
+
+.text13{
+    position: absolute;
+    display: flex;
+    margin-top: 125px;
+    margin-left: 771px;
+    width: 282px;
+    height: 76px;
+
+}
+
+.text13 p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+/*inicio social*/
+
+.container5{
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    width: 184px;
+    height: 34px;
+    margin-top: 196px;
+    margin-left: 1135px;
+
+}
+
+.container5 div{
+    width: 34px;
+    height: 34px;
+    background-color: white;
+    border-radius: 50% 50%;
+}
+
+.links{
+    display: flex;
+    width: 13px;
+    height: 13px;
+    margin-top: 11px;
+    margin-left: 11px;
+    color: black;
+    text-decoration: none;
+}
+
+#line2{
+    display: flex;
+    position: absolute;
+    width: 1440px;
+    height: 0px;
+    border: 0.8px solid white;
+    margin-top: 293px;
+
+}
+
+#copy {
+    display: flex;
+    white-space: nowrap;
+    position: absolute;
+    width: 306px;
+    height: 25px;
+    margin-left: 588px;
+    margin-top: 322px;
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24.78px;
+    text-align: left;
+
+}
